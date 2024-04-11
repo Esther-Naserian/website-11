@@ -82,3 +82,90 @@ gap: 2%;
 #last{
 background-color: rgb(205, 205, 212);
 }
+@media screen and (max-width: 650px){
+    #navbar{
+        grid-template-columns: auto;
+        display: grid;
+        justify-content: space-evenly;
+        text-decoration: none;
+        }
+        #button1{
+        background-color: rgb(140, 140, 196);
+        border-radius: 40%;
+        }
+        #button2{
+        background-color: rgb(202, 202, 230);
+        border-radius: 50%;
+        width: 100px;
+        height: 50px;
+        }
+        #container2{
+        
+        }
+        #page1{
+    
+        margin-left: 20%;
+        }
+        .img1{
+        width: 10px;
+        }
+        .img2{
+            width: 10px;
+        }
+        #page2{
+        display: flex;
+        gap: 5%;
+        }
+        .sent{
+        text-align: center;
+        }
+        .image1{
+            width: 90px;
+        border-radius: 50%;
+        }
+        .img3{
+            width: 90px;
+            
+            justify-content: space-between;
+        }
+        #follow{
+        
+        }
+        #text{
+            font-size:small
+        }
+        #footer{
+            
+            justify-content: space-evenly;
+        
+        }
+        #page1{
+            
+        }
+        .text1{
+        font-size: larger;
+        }
+        body{
+        background-color: rgb(213, 213, 230);
+        
+        }
+        #container1{
+            background-color: white;
+        
+        }
+        #container3{
+        justify-content: center;
+        margin-left: 20%;
+        }
+        #text3{
+        margin-left: 9%;
+        
+        gap: 2%;
+        }
+        #page2{
+            margin-left: 10%;
+        }
+        #last{
+        background-color: rgb(205, 205, 212);
+}
+}
