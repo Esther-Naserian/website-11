@@ -4,12 +4,12 @@ justify-content: space-evenly;
 text-decoration: none;
 }
 #button1{
-background-color: rgb(140, 140, 196);
+background-color: rgb(227, 227, 232);
 border-radius: 40%;
 }
 #button2{
 background-color: rgb(202, 202, 230);
-border-radius: 50%;
+border-radius: 40%;
 width: 100px;
 height: 50px;
 }
@@ -82,29 +82,31 @@ gap: 2%;
 #last{
 background-color: rgb(205, 205, 212);
 }
-@media screen and (max-width: 650px){
+@media only screen and (max-width: 650px){
     #navbar{
-        grid-template-columns: auto;
-        display: grid;
+        
         justify-content: space-evenly;
         text-decoration: none;
         }
         #button1{
         background-color: rgb(140, 140, 196);
         border-radius: 40%;
+        width:90px;
+        height: 50px;
         }
         #button2{
         background-color: rgb(202, 202, 230);
-        border-radius: 50%;
-        width: 100px;
+        border-radius: 30%;
+        width: 50px;
         height: 50px;
         }
         #container2{
+            display: grid;
         
         }
         #page1{
-    
-        margin-left: 20%;
+    display: grid;
+        
         }
         .img1{
         width: 10px;
@@ -113,14 +115,14 @@ background-color: rgb(205, 205, 212);
             width: 10px;
         }
         #page2{
-        display: flex;
-        gap: 5%;
+        display: grid
+        
         }
         .sent{
         text-align: center;
         }
         .image1{
-            width: 90px;
+            width: 80px;
         border-radius: 50%;
         }
         .img3{
@@ -129,14 +131,15 @@ background-color: rgb(205, 205, 212);
             justify-content: space-between;
         }
         #follow{
+            display: grid;
         
         }
         #text{
             font-size:small
         }
         #footer{
-            
             justify-content: space-evenly;
+            display: grid;
         
         }
         #page1{
