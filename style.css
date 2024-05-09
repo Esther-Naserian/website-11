@@ -3,17 +3,27 @@ display: flex;
 gap: 80px;
 text-decoration: none;
 margin-left: 10%;
+margin-top: 2%;
 
 }
+#FindBook{
+    margin-left: 20%;
+    position: relative;
+    margin-top: -6%;
+    font-size: 30px;
+}
+
 .instagramlogo{
     width: 80px;   
 }
 
 .icons{
 width: 40px;
+height: 30px;
 }
 .icon{
-width: 50px;
+width: 30px;
+height: 20px;
 }
 .input{
     padding-right: 50px;
@@ -26,6 +36,9 @@ border: none;
 background-color: transparent;
 cursor: pointer;
 }
+.messageFindBook{
+font-size: 30px;
+}
 
 
 a{
@@ -36,15 +49,13 @@ width: 20px;
 }
 #button1{
 background-color: rgb(227, 227, 232);
-border-radius: 50%;
-width: 120px;
-height: 100px;
-margin-left: 100px;
+border-radius: 30px;
+width: 200px;
 
 
 }
 #Login{
-    margin-left: 250px;
+    margin-left: 300px;
 }
 
 #button2{
@@ -71,18 +82,24 @@ display: flex;
 gap: 5%;
 }
 .FindBook{
-    position: relative;
     display: inline-block;
-    width: 170px;
+    width: 100px;
+    margin-left: 20%;
+    position: relative;
+    margin-top: -6%;
+    font-size: 30px;
+
+
+
 }
-.FindBook input{
+.FindBookInput{
     border: 1px solid;
     border-radius: 30px;
     padding-right: 40px;
-    padding: 15%;
-    width: 200px;
+padding: 10px;    
+
 }
-.FindBook searchbutton{
+.FindBookSearchbutton{
     position: absolute;
     margin-left: 450px;
     padding: 8%;
@@ -94,13 +111,15 @@ gap: 5%;
     width: 80px;
     height: 30px;
 }
+
+
 .sent{
 text-align: center;
 }
 .image1{
-    width: 400px;
-border-radius: 40%;
-margin-left: 50%;
+ width: 400px;
+border-radius: 60%;
+margin-left: 5%;
 }
 .img3{
     width: 90px;
@@ -143,6 +162,7 @@ gap: 2%;
 }
 #last{
 background-color: rgb(205, 205, 212);
+
 
 
 }
